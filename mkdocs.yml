@@ -1,4 +1,9 @@
 site_name: Муза docs
+site_url: https://malykhsergey.github.io/muse-service/
+site_author: MalykhSergey
+repo_name: MalykhSergey/muse-service
+repo_url: https://github.com/MalykhSergey/muse-service
+
 theme:
   name: material
   palette: 
