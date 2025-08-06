@@ -749,9 +749,11 @@
 </ul>
 <hr />
 <h2 id="postsubscribe">PostSubscribe (Подписка на пост)</h2>
-<p>Составной ключ через <code>PostSubscribeId</code>:
-* <strong>post_id</strong> - идентификатор поста
-* <strong>user_id</strong> - идентификатор пользователя</p>
+<p>Составной ключ через <code>PostSubscribeId</code>:</p>
+<ul>
+<li><strong>post_id</strong> - идентификатор поста</li>
+<li><strong>user_id</strong> - идентификатор пользователя</li>
+</ul>
 <p><strong>Связи:</strong></p>
 <ul>
 <li>Многие к одному с Post</li>
@@ -759,9 +761,11 @@
 </ul>
 <hr />
 <h2 id="tagsubscribe">TagSubscribe (Подписка на тег)</h2>
-<p>Составной ключ через <code>TagSubscribeId</code>:
-* <strong>tag_id</strong> - идентификатор тега
-* <strong>user_id</strong> - идентификатор пользователя</p>
+<p>Составной ключ через <code>TagSubscribeId</code>:</p>
+<ul>
+<li><strong>tag_id</strong> - идентификатор тега</li>
+<li><strong>user_id</strong> - идентификатор пользователя</li>
+</ul>
 <p><strong>Связи:</strong></p>
 <ul>
 <li>Многие к одному с Tag</li>
@@ -769,10 +773,12 @@
 </ul>
 <hr />
 <h2 id="role">Role (Роль)</h2>
-<p>Enum с значениями:
-* <strong>BASIC</strong> - базовая роль
-* <strong>MODER</strong> - модератор
-* <strong>ADMIN</strong> - администратор</p>
+<p>Enum с значениями:</p>
+<ul>
+<li><strong>BASIC</strong> - базовая роль</li>
+<li><strong>MODER</strong> - модератор</li>
+<li><strong>ADMIN</strong> - администратор</li>
+</ul>
 <p><em>Примечание: В текущих Entity классах роль не используется в User</em></p>
 <hr />
 <h2 id="_1">Типы данных</h2>
